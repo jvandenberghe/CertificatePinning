@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <!-- Main Fragment Strings -->
+    <string name="app_name">CertPinBasic</string>
+    <!-- Main Fragment Strings -->
+    <string name="instructions_str">Test certificate pinning for SADP website: </string>
+    <string name="url_pinned">https://sadp-web.azurewebsites.net/api/values</string>
+    <string name="url_custom_ex">https://login.yahoo.com/</string>
+    <string name="opt_custom_str">Custom URL</string>
+    <string name="but_pin_str">Test Certificate Pinning</string>
+    <string name="use_valid">Use Valid Pinned Certificate</string>
+    <string name="use_old">Use Old Invalid Pinned Certificate</string>
+    <string name="Main_Current_Cert_Txt">Current Certificate used by App:</string>
+    <string name="Main_Received_Cert_Txt">Retrieved Certificate:</string>
+	<string name="Man_Cert_Host_Plain">sadp-web.azurewebsites.net</string>
+	
+    <!-- Menu Strings -->
+    <string name="action_cert_pin">Certificate Pin Test</string>
+    <string name="action_register">Register</string>
+    <string name="action_update">Update</string>
+    <string name="action_view_list">View Members</string>
+
+    <!-- Create User Fragment Strings -->
+    <string name="btn_create_user_str">Create User</string>
+    <string name="btn_get_tkn_str">Get User Token</string>
+    <string name="txt_user_id_str">User ID: </string>
+    <string name="txt_user_pw_str">User PW: </string>
+    <string name="txt_user_token_str">User Bearer Token: </string>
+    
+
+    <!-- RESTful Strings -->
+    <string name="API_Web_Cert">https://sadp-web.azurewebsites.net/</string>
+    <string name="API_Web_User">https://sadp-web.azurewebsites.net/api/Account/Register</string>
+    <string name="API_Web_Token">https://sadp-web.azurewebsites.net/Token</string>
+    <string name="API_Web_Members">https://sadp-web.azurewebsites.net/odata/Members</string>
+    <string name="API_Web_Charset">utf-8</string>
+    <string name="API_Web_Content_Type_Form">application/x-www-form-urlencoded</string>
+    <string name="API_WebContent_Type_Json">application/json</string>
+
+    <!-- Get Token -->
+    <string name="API_Web_Token_Grant_Type">grant_type=password&amp;username=</string>
+    <string name="API_Web_Token_And_Password">&amp;password=</string>
+
+    <!-- Authorization Token -->
+    <string name="API_Web_Aut_Header">Authorization</string>
+    <string name="ApI_Web_Auth_Bearer">Bearer </string>
+
+    <!-- UpdateMemberFragment strings -->
+    <string name="Up_Frag_Status_txt">Current Status: </string>
+    <string name="Up_Frag_Current_Loc_txt">Update Current Location</string>
+    <string name="Up_Frag_Update_Member_txt">Update Membership</string>
+    <string name="Up_Frag_Name_txt">Name: </string>
+    <string name="Up_Frag_LongCoord_txt">Longitiude: </string>
+    <string name="Up_Frag_LatCoord_txt">Latitude: </string>
+    <string name="Up_Frag_Hint_Status_txt">Ex:"Studying in Library"</string>
+    <string name="Up_Frag_Hint_Long_txt">Ex SJ: -121.8949600</string>
+    <string name="Up_Frag_Hint_Lat_txt">Ex SJ: 37.3393900</string>
+    <string name="Up_Frag_Long_txt">-121.8949600</string>
+    <string name="Up_Frag_Lat_txt">37.3393900</string>
+
+    <!-- MemberList Fragment Strings -->
+    <string name="List_Frag_user_id_txt">User ID: </string>
+    <string name="List_Frag_user_status_txt">User Status: </string>
+    <string name="List_Frag_user_location_txt">User Location Coordinates (Latitude, Longitude):</string>
+
+</resources>

@@ -1,0 +1,93 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent" 
+    android:orientation="vertical">
+    
+  
+
+    <LinearLayout 
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+        
+        <TextView 
+            android:text="@string/Up_Frag_Name_txt"
+            android:layout_width="wrap_content"
+        	android:layout_height="wrap_content"/>
+	    <EditText
+	        android:id="@+id/Up_Frag_ET_Name"
+	        android:layout_width="fill_parent"
+	        android:layout_height="wrap_content"
+	        android:inputType="text"
+	        android:hint="" />
+	</LinearLayout>
+    
+    
+    <LinearLayout 
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+        
+        <TextView 
+            android:text="@string/Up_Frag_Status_txt"
+            android:layout_width="wrap_content"
+        	android:layout_height="wrap_content"/>
+	    <EditText
+	        android:id="@+id/Up_Frag_ET_Status"
+	        android:layout_width="fill_parent"
+	        android:layout_height="wrap_content"
+	        android:inputType="text"
+	        android:hint="@string/Up_Frag_Hint_Status_txt"/>
+	</LinearLayout>
+    
+
+    <Button 
+        android:id="@+id/Up_Frag_Get_Loc"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/Up_Frag_Current_Loc_txt"/>
+    
+     <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+        
+        <TextView 
+            android:text="@string/Up_Frag_LatCoord_txt"
+            android:layout_width="wrap_content"
+        	android:layout_height="wrap_content"/>
+	    <EditText
+	        android:id="@+id/Up_Frag_TV_Lat"
+	        android:layout_width="fill_parent"
+	        android:layout_height="wrap_content"
+        	android:inputType="numberDecimal"
+        	android:hint="@string/Up_Frag_Hint_Lat_txt"/>
+	</LinearLayout>
+    
+    
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+        
+        <TextView 
+            android:text="@string/Up_Frag_LongCoord_txt"
+            android:layout_width="wrap_content"
+        	android:layout_height="wrap_content"/>
+	    <EditText
+	        android:id="@+id/Up_Frag_TV_Long"
+	        android:layout_width="fill_parent"
+	        android:layout_height="wrap_content"
+	        android:inputType="numberDecimal"
+        	android:hint="@string/Up_Frag_Hint_Long_txt"/>
+	</LinearLayout>
+	
+   
+    <Button 
+        android:id="@+id/Up_Frag_Up_To_Web"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/Up_Frag_Update_Member_txt"/>
+
+</LinearLayout>
