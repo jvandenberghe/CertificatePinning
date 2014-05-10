@@ -1,37 +1,48 @@
-CertificatePinning
-==================
+README FILE
 
-Certificate Pinning in Mobile Apps (c) 2014
-
-Suantak Niangneihoi  
-San Jose State University 
-CMPE 277 - Smartphone Application Development 
-Spring 2014 All Rights Reserved
-
-===================================================
+CertPinBasic for Android 4.4 (KitKat) and above
+By The APPrentices (SADP)
+[05/02/2014]
 
 CONTENTS
 
-===================================================
-
-GENERAL NOTES
-
-•	Developed a security-based Android app to encounter Man-In-The-Middle attacks in mobile environments, by implementing certificate pinning with user authentication.
-•	SQL Database and Azure website created with Windows Azure cloud, with RESTful web service implementation.
-•	Client-side architecture developed in Android (Java) using Eclipse. 
-•	Server-side infrastructure built using ASP.NET MVC5, and the SQL Database maintained in the Azure cloud.
-•	Mobile testing done using Robotium.
-
-=========================================
-
-SYSTEM REQUIREMENTS
-
-* Target SDK version Android API Level 19 (version 4.4.2 - KitKat)
-* Minimum SDK version Android API Level 18 
-
-========================================================================
+I.	MINIMUM SYSTEM REQUIREMENTS
+II.	DEVELOPER TOOLS
+III.	FEATURES
 
 
-Copyright (C) 2014 
+
+I. MINIMUM SYSTEM REQUIREMENTS 
+
+Android Phone/Tablet Device or Emulator
+* KitKat (Android 4.4) or higher
+* Minimum SDK Version: 18
+* Target SDK Version: 19
+
+II. DEVELOPER TOOLS
+
+* Eclipse IDE for Android (Java) 
+* Visual Studio Professional 2012
+* Microsoft Windows Azure - SQL Database
+			  - Azure Website (certificate pinned)
+* ASP.NET MVC5
+
+III. FEATURES
+
+* Android security app that demonstrates certificate pinning.
+* Secure mobile app that counters MITM attacks.
+* User authentication
+
+
+Copyright © 2014 
+
+Edward Reyes
+Sahil Arora
 Suantak Niangneihoi
-All rights reserved.
+
+CMPE 277: Smartphone Application Development
+Project
+
+San Jose State University 
+
+
