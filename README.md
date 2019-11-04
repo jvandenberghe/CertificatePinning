@@ -38,7 +38,7 @@ Copyright © 2014
 
 Edward Reyes
 Sahil Arora
-Suantak Niangneihoi
+Annie Thornton
 
 CMPE 277: Smartphone Application Development
 Project
